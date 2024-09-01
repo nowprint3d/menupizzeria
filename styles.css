@@ -1,0 +1,221 @@
+/* Stile generale */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh; /* Assicurarsi che il body occupi almeno l'altezza della finestra */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Contenitore principale */
+.container {
+    flex: 1; /* Occupa tutto lo spazio disponibile, spingendo il footer verso il basso */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #dddddd;
+}
+/* Contenitore sinistro dell'intestazione */
+.header-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Icone social */
+.social-icons {
+    display: flex;
+    gap: 15px; /* Maggiore distanza tra le icone */
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 30px; /* Dimensione delle icone */
+    height: 30px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.social-icons img:hover {
+    opacity: 0.8; /* Effetto al passaggio del mouse */
+}
+
+/* Indirizzo */
+.address {
+    color: violet;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 2px; /* Maggiore margine dalle icone social */
+}
+
+.address:hover {
+    text-decoration: none; /* Rimuovere sottolineatura al passaggio del mouse */
+}
+
+/* Contenitore destro dell'intestazione */
+.header-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+header img {
+    max-width: 80px;
+    height: auto;
+}
+header h1 {
+    font-size: 36px;
+    color: brown;
+    text-align: right;
+    margin: 0;
+}
+
+header h1 span {
+    display: block;
+}
+
+header h2 {
+    font-size: 25px;
+    color: brown;
+    text-align: right;
+    margin: 0;
+    margin-top: 15px; /* Maggiore margine dalle icone social */
+}
+
+header h2 span {
+    display: block;
+}
+
+header .social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+
+
+/* Titolo principale */
+h1 {
+    font-size: 36px;
+    color: brown;
+    text-align: right;
+    margin: 0;
+}
+
+h1 span {
+    display: block;
+}
+
+/* Main content */
+main {
+    flex: 1; /* Occupa tutto lo spazio disponibile tra header e footer */
+}
+
+.menu-buttons {
+    margin: 20px;
+}
+
+/* Container della categoria */
+.category-container {
+    margin-bottom: 20px;
+}
+
+/* Pulsanti delle categorie */
+.category-button {
+    display: block;
+    width: 100%;
+    background-color: #cccccc;
+    color: red;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+/* Contenitore del menu della categoria */
+.menu-content {
+    display: none; /* Inizialmente nascosto */
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+
+/* Stile degli elementi del menu */
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #444444;
+}
+
+.menu-item img {
+    max-width: 100px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item .info {
+    flex: 1;
+    padding-right: 10px;
+}
+
+.menu-item h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.menu-item .price {
+    margin-top: 5px;
+    color: green;
+    font-weight: bold;
+}
+
+.menu-item p {
+    margin: 5px 0;
+    color: #555555;
+}
+
+.tags {
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background-color: #333333; /* Grigio scuro */
+    color: #ffffff; /* Testo chiaro */
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    border-top: 2px solid #dddddd;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}

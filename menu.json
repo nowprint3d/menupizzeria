@@ -1,0 +1,46 @@
+[
+    {
+        "nome": "Margherita",
+        "tipo": "classica",
+        "prezzo": "6.50",
+        "descrizione": "Pomodoro, mozzarella, basilico, giuseppina, pomodoro, latte, uova.giuseppina, pomodoro, latte, uova.",
+        "piccante": false,
+        "formaggio": true,
+        "pesce": false,
+        "vegetariana": true,
+        "foto": "foto/01 margherita.jpg"
+    },
+    {
+        "nome": "Diavola",
+        "tipo": "classica",
+        "prezzo": "8.00",
+        "descrizione": "Pomodoro, mozzarella, salame piccante.",
+        "piccante": true,
+        "formaggio": true,
+        "pesce": false,
+        "vegetariana": false,
+        "foto": "foto/01 margherita.jpg"
+    },
+    {
+        "nome": "Diavola",
+        "tipo": "speciale",
+        "prezzo": "8.00",
+        "descrizione": "Pomodoro, mozzarella, salame piccante.",
+        "piccante": true,
+        "formaggio": true,
+        "pesce": false,
+        "vegetariana": false,
+        "foto": "foto/01 margherita.jpg"
+    },
+    {
+        "nome": "Diavola",
+        "tipo": "bibite",
+        "prezzo": "8.00",
+        "descrizione": "Pomodoro, mozzarella, salame piccante.",
+        "piccante": true,
+        "formaggio": true,
+        "pesce": false,
+        "vegetariana": false,
+        "foto": "foto/01 margherita.jpg"
+    }
+]
