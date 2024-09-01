@@ -1,6 +1,6 @@
 /* Stile generale */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #ffffff;
     margin: 0;
     padding: 0;
@@ -9,12 +9,14 @@ body {
     flex-direction: column;
 }
 
+
 /* Contenitore principale */
 .container {
     flex: 1; /* Occupa tutto lo spazio disponibile, spingendo il footer verso il basso */
     display: flex;
     flex-direction: column;
 }
+
 
 /* Header */
 header {
@@ -25,6 +27,8 @@ header {
     background-color: #ffffff;
     border-bottom: 2px solid #dddddd;
 }
+
+
 /* Contenitore sinistro dell'intestazione */
 .header-left {
     display: flex;
@@ -38,30 +42,40 @@ header {
     gap: 15px; /* Maggiore distanza tra le icone */
     margin-bottom: 10px;
 }
-
 .social-icons img {
     width: 30px; /* Dimensione delle icone */
     height: 30px;
     cursor: pointer;
     transition: opacity 0.3s;
 }
-
 .social-icons img:hover {
     opacity: 0.8; /* Effetto al passaggio del mouse */
 }
 
 /* Indirizzo */
+header h2 {
+    font-size: 25px;
+    color: brown;
+    font-weight: 700; /* Roboto Bold */
+    text-align: right;
+    margin: 0;
+    margin-top: 15px; /* Maggiore margine dalle icone social */
+}
+
+header h2 span {
+    display: block;
+}
 .address {
-    color: violet;
-    font-weight: bold;
+    color: rgb(51, 51, 51);
+    font-weight: 700; /* Roboto Bold */
     text-decoration: none;
     font-size: 16px;
     margin-top: 2px; /* Maggiore margine dalle icone social */
 }
-
 .address:hover {
     text-decoration: none; /* Rimuovere sottolineatura al passaggio del mouse */
 }
+
 
 /* Contenitore destro dell'intestazione */
 .header-right {
@@ -69,7 +83,6 @@ header {
     flex-direction: column;
     align-items: flex-end;
 }
-
 header img {
     max-width: 80px;
     height: auto;
@@ -85,22 +98,6 @@ header h1 span {
     display: block;
 }
 
-header h2 {
-    font-size: 25px;
-    color: brown;
-    text-align: right;
-    margin: 0;
-    margin-top: 15px; /* Maggiore margine dalle icone social */
-}
-
-header h2 span {
-    display: block;
-}
-
-header .social-icons {
-    display: flex;
-    gap: 10px;
-}
 
 
 
@@ -108,6 +105,7 @@ header .social-icons {
 h1 {
     font-size: 36px;
     color: brown;
+    font-weight: 700; /* Roboto Bold */
     text-align: right;
     margin: 0;
 }
@@ -135,9 +133,10 @@ main {
     display: block;
     width: 100%;
     background-color: #cccccc;
-    color: red;
-    font-weight: bold;
-    padding: 10px;
+    color: rgb(165, 0, 0);
+    font-weight: 700; /* Roboto Bold */
+    font-size: 25px;
+    padding: 15px;
     text-align: center;
     border: none;
     border-radius: 5px;
