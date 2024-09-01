@@ -61,10 +61,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     const tags = document.createElement('div');
                     tags.className = 'tags';
 
-                    if (item.piccante) tags.innerHTML += '<span>🌶</span>';
-                    if (item.formaggio) tags.innerHTML += '<span>🧀</span>';
+                    if (item.piccante) tags.innerHTML += '<span>🌶️</span>';
+                    if (item.glutine) tags.innerHTML += '<span>🌾</span>';
+                    if (item.latticini) tags.innerHTML += '<span>🧀</span>';
                     if (item.pesce) tags.innerHTML += '<span>🐟</span>';
                     if (item.vegetariana) tags.innerHTML += '<span>🥬</span>';
+                    if (item.alcolico) tags.innerHTML += '<span>🍷</span>';
 
                     info.appendChild(name);
                     info.appendChild(price);
@@ -84,3 +86,4 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Errore nel caricamento del menu:', error));
 });
+
