@@ -76,12 +76,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     const img = document.createElement('img');
                     const fallbackImg = 'foto/null.png'; // Immagine di fallback
 
-                    // Prova a caricare prima il .jpg, poi il .png, e infine usa il fallback in caso di errore
+                    // Prova prima con .jpg e poi .png
                     img.src = `foto/${item.nome}.jpg`;
+                    
                     img.onerror = () => {
-                        img.src = `foto/${item.nome}.png`; // Prova a caricare il .png se il .jpg fallisce
+                        // Se .jpg non esiste, prova con .png
+                        img.onerror = null; // Rimuove il gestore per evitare loop infiniti
+                        img.src = `foto/${item.nome}.png`;
+                        
+                        // Se .png fallisce, usa il fallback
                         img.onerror = () => {
-                            img.src = fallbackImg; // Se anche il .png fallisce, usa l'immagine di fallback
+                            img.src = fallbackImg;
                         };
                     };
 
