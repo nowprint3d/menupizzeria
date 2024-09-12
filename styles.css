@@ -43,8 +43,8 @@ header {
     margin-right: 0px;
 }
 .social-icons img {
-    width: 35px; /* Dimensione delle icone */
-    height: 35px;
+    width: 30px; /* Dimensione delle icone */
+    height: 30px;
     cursor: pointer;
     transition: opacity 0.3s;
 }
@@ -58,7 +58,7 @@ header {
     text-align: left;
 }
 header h2 {
-    font-size: 22px;
+    font-size: 20px;
     color: brown;
     font-weight: 700; /* Roboto Bold */
     margin: 0;
@@ -87,7 +87,7 @@ header h2 span {
     justify-content: flex-end;
 }
 header img {
-    max-height: 140px;
+    max-height: 120px;
     width: auto;
 }
 
