@@ -176,11 +176,25 @@ main {
     font-weight: bold;
 }
 
-.menu-item .price {
+.menu-item .price1 {
     margin-top: 5px;
     color: green;
     font-weight: bold;
 }
+
+.menu-item .price2 {
+    margin-top: 5px;
+    color: green;
+    font-weight: bold;
+}
+
+.menu-item .price3 {
+    margin-top: 5px;
+    color: green;
+    font-weight: bold;
+}
+
+
 
 .menu-item p {
     margin: 5px 0;

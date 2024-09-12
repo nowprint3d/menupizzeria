@@ -51,12 +51,15 @@ document.addEventListener('DOMContentLoaded', () => {
                     const name = document.createElement('h3');
                     name.textContent = item.nome;
 
-                    const price = document.createElement('p');
-                    price.className = 'price';
-                    price.textContent = `€ ${item.prezzo}`;
-
                     const description = document.createElement('p');
                     description.textContent = item.descrizione;
+
+                    const price1 = document.createElement('p');
+                    price1.className = 'price1';
+                    price1.textContent = `${item.prezzo1}`;
+
+                    
+
 
                     const tags = document.createElement('div');
                     tags.className = 'tags';
@@ -69,9 +72,30 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (item.alcolico) tags.innerHTML += '<span>🍷</span>';
 
                     info.appendChild(name);
-                    info.appendChild(price);
                     info.appendChild(description);
+                    info.appendChild(price1);
+
+                    // Verifica se prezzo2 esiste prima di mostrarlo
+                    if (item.prezzo2 !== undefined) {
+                        const price2 = document.createElement('p');
+                        price2.className = 'price2';
+                        price2.textContent = `${item.prezzo2}`;
+                        info.appendChild(price2);
+                    };
+
+                    // Verifica se prezzo3 esiste prima di mostrarlo
+                    if (item.prezzo3 !== undefined) {
+                        const price3 = document.createElement('p');
+                        price3.className = 'price3';
+                        price3.textContent = `${item.prezzo3}`;
+                        info.appendChild(price3);
+                     };
+
+
                     info.appendChild(tags);
+
+
+
 
                     const img = document.createElement('img');
                     const fallbackImg = 'foto/null.png'; // Immagine di fallback
