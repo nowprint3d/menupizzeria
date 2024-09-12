@@ -74,7 +74,17 @@ document.addEventListener('DOMContentLoaded', () => {
                     info.appendChild(tags);
 
                     const img = document.createElement('img');
-                    img.src = item.foto;
+                    const fallbackImg = 'foto/null.png'; // Immagine di fallback
+
+                    // Prova a caricare prima il .jpg, poi il .png, e infine usa il fallback in caso di errore
+                    img.src = `foto/${item.nome}.jpg`;
+                    img.onerror = () => {
+                        img.src = `foto/${item.nome}.png`; // Prova a caricare il .png se il .jpg fallisce
+                        img.onerror = () => {
+                            img.src = fallbackImg; // Se anche il .png fallisce, usa l'immagine di fallback
+                        };
+                    };
+
                     img.alt = item.nome;
 
                     menuItem.appendChild(info);

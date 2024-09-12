@@ -9,8 +9,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Diavola",
@@ -22,8 +21,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/null.png"
+        "alcolico": false
     },
     {
         "nome": "Capricciosa",
@@ -35,8 +33,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/null.png"
+        "alcolico": false
     },
     {
         "nome": "Quattro Formaggi",
@@ -48,8 +45,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/null.png"
+        "alcolico": false
     },
     {
         "nome": "Marinara",
@@ -61,8 +57,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Bufalina",
@@ -74,8 +69,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Salsiccia e Friarielli",
@@ -87,8 +81,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Pescatora",
@@ -100,8 +93,7 @@
         "latticini": false,
         "pesce": true,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Pizza Tartufo",
@@ -113,8 +105,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Crudo e Rucola",
@@ -126,8 +117,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Gourmet Funghi Porcini",
@@ -139,8 +129,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Gourmet Patanegra",
@@ -152,8 +141,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Gourmet Burrata",
@@ -165,8 +153,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Gourmet Scampi e Limone",
@@ -178,8 +165,7 @@
         "latticini": true,
         "pesce": true,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Gourmet Zucca e Gorgonzola",
@@ -191,8 +177,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Sfilatino Classico",
@@ -204,8 +189,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Sfilatino Vegetariano",
@@ -217,8 +201,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Sfilatino Tonno",
@@ -230,8 +213,7 @@
         "latticini": false,
         "pesce": true,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Sfilatino Bresaola",
@@ -243,8 +225,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Sfilatino Prosciutto Crudo",
@@ -256,8 +237,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Piadina Classica",
@@ -269,8 +249,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Piadina Vegetariana",
@@ -282,8 +261,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Piadina Tonno",
@@ -295,8 +273,7 @@
         "latticini": false,
         "pesce": true,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Piadina Salsiccia",
@@ -308,8 +285,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Piadina Speck",
@@ -321,8 +297,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Tiramisù",
@@ -334,8 +309,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Cheesecake ai Frutti di Bosco",
@@ -347,8 +321,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Profiteroles",
@@ -360,8 +333,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Gelato alla Vaniglia",
@@ -373,8 +345,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": true,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Torta della Nonna",
@@ -386,8 +357,7 @@
         "latticini": true,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/01 margherita.jpg"
+        "alcolico": false
     },
     {
         "nome": "Acqua Naturale",
@@ -399,8 +369,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/null.png"
+        "alcolico": false
     },
     {
         "nome": "Coca Cola",
@@ -412,8 +381,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/null.png"
+        "alcolico": false
     },
     {
         "nome": "Fanta",
@@ -425,8 +393,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/null.png"
+        "alcolico": false
     },
     {
         "nome": "Sprite",
@@ -438,8 +405,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/null.png"
+        "alcolico": false
     },
     {
         "nome": "The al Limone",
@@ -451,8 +417,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": false,
-        "foto": "foto/null.png"
+        "alcolico": false
     },
     {
         "nome": "Birra Bionda",
@@ -464,8 +429,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": true,
-        "foto": "foto/null.png"
+        "alcolico": true
     },
     {
         "nome": "Birra Rossa",
@@ -477,8 +441,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": true,
-        "foto": "foto/null.png"
+        "alcolico": true
     },
     {
         "nome": "Vino Bianco",
@@ -490,8 +453,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": true,
-        "foto": "foto/null.png"
+        "alcolico": true
     },
     {
         "nome": "Vino Rosso",
@@ -503,8 +465,7 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": true,
-        "foto": "foto/null.png"
+        "alcolico": true
     },
     {
         "nome": "Spritz",
@@ -516,7 +477,6 @@
         "latticini": false,
         "pesce": false,
         "vegetariana": false,
-        "alcolico": true,
-        "foto": "foto/null.png"
+        "alcolico": true
     }
 ]
