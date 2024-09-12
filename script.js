@@ -86,4 +86,3 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .catch(error => console.error('Errore nel caricamento del menu:', error));
 });
-
