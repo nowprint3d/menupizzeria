@@ -10,7 +10,7 @@
         "glutine": true,
         "latticini": true,
         "pesce": true,
-        "vegetariana": false,
+        "vegetariana": true,
         "carne": true,
         "uova": true,
         "fruttasecca": true,
