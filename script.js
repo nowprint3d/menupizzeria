@@ -67,7 +67,10 @@ document.addEventListener('DOMContentLoaded', () => {
                     if (item.piccante) tags.innerHTML += '<span>🌶️</span>';
                     if (item.glutine) tags.innerHTML += '<span>🌾</span>';
                     if (item.latticini) tags.innerHTML += '<span>🧀</span>';
+                    if (item.carne) tags.innerHTML += '<span>🥩</span>';
                     if (item.pesce) tags.innerHTML += '<span>🐟</span>';
+                    if (item.uova) tags.innerHTML += '<span>🥚</span>';
+                    if (item.fruttasecca) tags.innerHTML += '<span>🥜</span>';
                     if (item.vegetariana) tags.innerHTML += '<span>🥬</span>';
                     if (item.alcolico) tags.innerHTML += '<span>🍷</span>';
 
