@@ -10,12 +10,12 @@ body {
 }
 
 
-
 /* Header */
 header {
     padding: 20px;
     border-bottom: 2px solid #dddddd;
 }
+
 
 .container {
     display: flex;
@@ -24,8 +24,18 @@ header {
 }
 
 
-
 /* Contenitore sinistro dell'intestazione */
+.header-left {
+}
+
+header img {
+    max-width: 150px;
+    height: auto;
+    align-items: flex-start;
+}
+
+
+/* Contenitore destro dell'intestazione */
 .header-right {
     display: flex;
     flex-direction: column;
@@ -54,7 +64,7 @@ header {
 
 /* Indirizzo */
 .header-address {
-    text-align: left;
+    text-align: right;
 }
 header h2 {
     font-size: 20px;
@@ -79,16 +89,7 @@ header h2 span {
 
 
 
-/* Contenitore destro dell'intestazione */
-.header-left {
-    display: flex;
 
-    justify-content: flex-end;
-}
-header img {
-    max-width: 150px;
-    height: auto;
-}
 
 
 .header-down {
