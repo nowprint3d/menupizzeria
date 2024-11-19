@@ -11,6 +11,9 @@
         "latticini": true,
         "pesce": true,
         "vegetariana": false,
+        "carne": true,
+        "uova": true,
+        "fruttasecca": true,
         "alcolico": false
     },
     {
