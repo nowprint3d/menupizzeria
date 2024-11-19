@@ -26,7 +26,7 @@ header {
 
 
 /* Contenitore sinistro dell'intestazione */
-.header-left {
+.header-right {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -54,7 +54,7 @@ header {
 
 /* Indirizzo */
 .header-address {
-    text-align: left;
+    text-align: right;
 }
 header h2 {
     font-size: 20px;
@@ -80,7 +80,7 @@ header h2 span {
 
 
 /* Contenitore destro dell'intestazione */
-.header-right {
+.header-left {
     display: flex;
 
     justify-content: flex-end;
