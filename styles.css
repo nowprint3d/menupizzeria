@@ -54,7 +54,7 @@ header {
 
 /* Indirizzo */
 .header-address {
-    text-align: right;
+    text-align: left;
 }
 header h2 {
     font-size: 20px;
